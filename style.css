@@ -1,0 +1,125 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+header {
+    width: 1487px;
+    height: 119px;
+}
+.svg {
+    color: black;
+    width: 48px;
+    height: 42px;
+    background-color: black;
+    position: relative;
+    left: 100px;
+    top: 70px;
+}
+ header .left {
+    width: 742px;
+    height: 61px;
+    display: inline-block;
+    
+}
+header .right {
+    width: 745px;
+    height: 61px;
+    display: inline-flex;
+    float: right;
+}
+.left h1 {
+    margin-left: 160px;
+    width: 200px;
+    height: 15px;
+    font-family: sans-serif
+    ;
+}
+.left p {
+    margin-left: 160px;
+    width: 200px;
+    height: 15px;
+}
+.right .links {
+    display: flex;
+    margin-left: 5px;
+    margin-top: 60px;
+}
+.links  ul li {
+    display: inline-block;
+    padding: 3px;
+    font-size: 20px;
+    color: black;
+    }
+.right p {
+    margin-top: 80px;
+    font-size: 20px;
+    margin-left: 510px;
+    color: black;
+}
+.right p a {
+    text-decoration: none;
+    color: black;
+}
+.photo {
+    width: min-content;
+}
+.links ul li a {
+    color: black;
+}
+.main button {
+font-size: 18px;
+font-family: Arial, Helvetica, sans-serif;
+border-radius: 50px;
+width: 180px;
+height: 50px;
+background: transparent ;
+cursor: pointer;
+}
+.main {
+    margin-top: 250px;
+    margin-left: 200px;
+}
+.foto img {
+    background-size: cover;
+    width: 1487px;
+    height: auto;
+    position: relative;
+    bottom: 629px;
+    z-index: -1;
+} 
+.main h1 {
+    font-size: 51px;
+    font-family: 'Montserrat', sans-serif;;
+}
+.main h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.foto2  img {
+    margin-left: 240px;
+    width: 550px ;
+    height: 470px;
+    object-fit: cover;
+    position: relative;
+    bottom: 520px;
+    background: transparent ;    
+}
+.foto2 h1 {
+    position: absolute;
+    bottom: -180px;
+    left: 733px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 51px;
+}
+.lorem {
+    width: 500px;
+    height: 400px;
+    position:relative;
+    bottom: 800px;
+    left: 840px;
+    font-size:large;
+}
+.lorem h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
